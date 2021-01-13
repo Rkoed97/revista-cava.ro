@@ -668,6 +668,7 @@ pre code {
 .col-lg-12,
 .col-lg-2,
 .col-lg-3,
+.col-lg-3-small,
 .col-lg-4,
 .col-lg-5,
 .col-lg-6,
@@ -685,6 +686,7 @@ pre code {
 .col-md-4,
 .col-md-5,
 .col-md-6,
+.col-md-6-small,
 .col-md-7,
 .col-md-8,
 .col-md-9,
@@ -1393,7 +1395,14 @@ pre code {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
-        max-width: 16.666667%
+        max-width: 20%;
+    }
+
+    .col-lg-3-small{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 20%
     }
     
     .col-lg-4 {
@@ -1414,6 +1423,14 @@ pre code {
         flex: 0 0 50%;
         max-width: 50%
     }
+
+    .col-lg-6-small {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+
     .col-lg-7 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 58.333333%;
